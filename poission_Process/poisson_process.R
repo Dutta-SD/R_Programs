@@ -1,3 +1,5 @@
+# input the csv file
+
 mod_string_2 = "model {
      for(i in 1:length(numvisit) ){
          numvisit[i] ~ dpois(lam[i])

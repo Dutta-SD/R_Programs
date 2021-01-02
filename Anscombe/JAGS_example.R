@@ -1,4 +1,5 @@
 ## Model string
+## -- data  -> Anscombe.csv
 mod_string = " model {
      for (i in 1:length(education)) {
          education[i] ~ dnorm(mu[i], prec)
